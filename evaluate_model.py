@@ -20,7 +20,7 @@ from cnn import CNN, load_data
  
 # ─── Configuration
 MODEL_NAME   = "resnext101_32x8d"
-WEIGHTS_PATH = "resnext101_32x8d_produ.pt.pt"
+WEIGHTS_PATH = "resnext101_32x8d_prod.pt"
  
 DATA_DIR   = "./dataset"
 BATCH_SIZE = 16
