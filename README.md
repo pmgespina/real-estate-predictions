@@ -1,16 +1,6 @@
 # Real-Estate Image Classifier
 
-Automatic classification of real-estate listing images into 15 scene categories using transfer learning on PyTorch. Experimentation tracked with Weights & Biases. Production inference served via FastAPI + Streamlit.
-
-**Authors:** Pilar Garzón · Pablo Moreno · Carolina Macho · Sofía Sebastián  
-**Institution:** ICAI — Universidad Pontificia Comillas  
-**Course:** Machine Learning II — Deep Learning, 2026
-
----
-
-## Links
-
-- **W&B workspace:** [202514287-universidad-pontificia-comillas](https://wandb.ai/202514287-universidad-pontificia-comillas)
+Automatic classification of real-estate listing images into 15 scene categories using transfer learning on PyTorch. Experiments are tracked with Weights & Biases, and inference is served via a FastAPI backend with a Streamlit frontend.
 
 ---
 
@@ -58,13 +48,13 @@ pip install uv
 
 **2. Create the virtual environment:**
 ```bash
-uv venv --python=3.12 dl_lab
+uv venv --python=3.12 realestate-env
 ```
 
 **3. Activate the environment:**
 ```bash
-source dl_lab/bin/activate   # macOS / Linux
-dl_lab\Scripts\activate      # Windows
+source realestate-env/bin/activate   # macOS / Linux
+realestate-env\Scripts\activate      # Windows
 ```
 
 **4. Install dependencies:**
@@ -78,12 +68,12 @@ uv pip install -r requirements.txt
 
 **1. Create the virtual environment:**
 ```bash
-conda create -n dl_lab python=3.12
+conda create -n realestate-env python=3.12
 ```
 
 **2. Activate the environment:**
 ```bash
-conda activate dl_lab
+conda activate realestate-env
 ```
 
 **3. Install dependencies:**

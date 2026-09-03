@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+realestate-env/
+.venv/
+venv/
+
+# Experiment artifacts (not the production checkpoint tracked in api/)
+models/
+confusion_matrix_*.png
+model_metrics.json
+
+# Weights & Biases logs
+wandb/
+
+# Editors
+.vscode/
+.idea/
